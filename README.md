@@ -11,7 +11,7 @@ Imagens: material cedido pelo curso, material produzido no figma, fotos de banco
 
 Três páginas : Index, Sobre , Galeria
 
-[alt image](./img/index.html.png)
+[alt text](./img/index.html.png)
 
-[alt image](./img/index2.html.png)
+[alt text](./img/index2.html.png)
 
