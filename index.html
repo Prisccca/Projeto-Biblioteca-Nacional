@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Nacional</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="container"> <!--Inicio Container-->
+        <header>
+            <div id="logo">
+                <h1><a href="">Biblioteca Nacional</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="">Acervo</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="">Exposições</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="principal"> <!--Inicio Conteudos-->
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="./img/hall bn.png" alt="">
+                </section>
+
+                <section id="postagens">
+                    <article id="video">
+                        <h3>Video: Bibliotecas do mundo</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/UxYPtEryQm8" title="YouTube video player" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                         allowfullscreen></iframe>
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Como chegar a Biblioteca</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15356.476355039684!2d-47.8633908!3d-15.7976734!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7999fa03569e5f00!2sBiblioteca%20do%20Senado%20Federal!5e0!3m2!1spt-BR!2sbr!4v1647116659921!5m2!1spt-BR!2sbr" 
+                        width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </article>
+
+                    <article id="livros">
+                        <h3>Obras raras</h3>
+                        <ul>
+                            <li><a href=""> Memoria historica da Faculdade de Medicina da Bahia no anno lectivo de 1900 a 1901 
+                                Britto, Alfredo, 1863-1909 </a></li>
+                            <li><a href="">  Dhalias [Manuscrito] Souza, Auta de, 1876-1901 </a></li>
+                            <li><a href=""> A Imperatriz D. Leopoldina : mãe do imperador D. Pedro II Santos, Amilcar Salgado dos, 1891-  </a></li>
+                            <li><a href="">  Infância e adolescência de D. Pedro II : documentos interessantes publicados para comemorar o primeiro centenário do nascimento do grande brasileiro ocorrido em 2 de dezembro de 1825 
+                                "Desenhos assinados por: A. do Carmo e J. B. Debret. Alguns rettratos asinados por Domenico Failutti e J. B. Debret.</a></li>
+                            <li><a href="">Documentos históricos : mudança da capital, construção do edifício do Congresso Nacional Comissão de Estudos do Projeto do Edifício destinado ao Senado Federal
+                                ( Brasília : Senado Federal, 1988 )
+                                </a></li>
+                            <a href=""><strong>Veja mais...</strong></a> 
+                        </ul>
+                    </article>
+
+                    <article id="história">
+                        <h3>Nossa história</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum felis vitae ipsum pretium tempus. Duis ut tincidunt neque. In a aliquam ex. Morbi congue nisi eget ante aliquam fermentum. Maecenas et lacus sed erat ultricies accumsan ac nec libero. Nullam molestie imperdiet convallis. Integer sed tellus diam. </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum felis vitae ipsum pretium tempus. Duis ut tincidunt neque. In a aliquam ex. Morbi congue nisi eget ante aliquam fermentum. Maecenas et lacus sed erat ultricies accumsan ac nec libero. Nullam molestie imperdiet convallis. Integer sed tellus diam. </p>
+                        <a href=""><strong>Veja mais...</strong></a>
+                    </article>
+
+
+
+                </section>
+
+            </div>
+
+            <aside>
+                <section id="depoimento">
+                    <img src="./img/texto.png" alt="">
+                </section>
+
+                <section id="visita">
+                    <h4>Visite nossas exposições</h4>
+                    <p>Agendamento para visitas em grupo</p>
+                    <form action="">
+                        <fieldset>
+                            <legend>Selecione uma data:</legend>
+                            <label for="data">Data:</label>
+                            <br>
+                            <input class="campo" type="date" id="data" value="dd/mm/aaaa">
+                            <br>
+                            <label for="quantidade"> Quantidade de pessoas:</label>
+                            <br>
+                            <input class="campo" type="number" id="quantidade" value="2" min="2" max="
+                            10">
+                            <br> 
+                            <input class="botao" type="submit" value="Verificar disponibilidade">
+                        </fieldset>
+                    </form>
+                </section>
+
+                <section id="galeria">
+                    <h1>Galeria de Fotos</h1>
+                    <a href="">
+                        <img src="./img/pexels-ivo-rainha-1261176.jpg" height="93px" width="93px" alt="">
+                    </a>
+                    <a href="">
+                        <img src="./img/pexels-ivo-rainha-1261177.jpg" height="93px" width="93px" alt="">
+                    </a>
+                    <a href="">
+                        <img src="./img/pexels-ivo-rainha-1261180.jpg" height="93px" width="93px" alt="">
+                    </a>
+                    <a href="">
+                        <img src="./img/pexels-ivo-rainha-1261181.jpg" height="93px" width="93px" alt="">
+                    </a>
+                    
+
+
+                </section>
+                
+            </aside>
+            <div style="clear: both;"></div>
+
+            <footer>
+                <p>
+                    <a href="">Home</a>
+                    <a href="">Sobre</a>
+                    <a href="">Acervo</a>
+                    <a href="">Galeria</a>
+                    <a href="">Exposições</a>
+                    <a href="">Contato</a>
+                </p>
+                <p>
+                    2022 <a href="">Biblioteca Nacional</a> Todos os direitos reservados
+                </p>
+                
+            </footer>
+
+        </div>
+    </div> <!--Fim container-->
+    
+</body>
+</html>
